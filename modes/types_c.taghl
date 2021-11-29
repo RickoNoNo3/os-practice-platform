@@ -1,0 +1,7 @@
+syn keyword CTagsStructure PCB Semaphore
+syn keyword CTagsMember len isProducer wait Algo status used apples_used Block pid v timeslice apples MAX que Suspend PC have Processes data Ready Available safeStr actor run oranges Run oranges_used Alloc N isWriter
+syn keyword CTagsGlobalVariable InSysStatus
+syn keyword CTagsFunction Semaphore block nextTimeslice Producer algoChange suspend act_block Writer create act_signal wait checkSafe act_ready act_new act_suspend view act_run showMenu act_wait act_active runChange vecChange Reader init PCB refreshReady signal act_end getPCB Customer
+syn keyword CTagsDefinedName PROCESS_H_INCLUDED ACTION_H_INCLUDED READ_WRITE_WFIRST_H_INCLUDED BANK_H_INCLUDED PRODUCT_CUSTOM_H_INCLUDED READ_WRITE_RFIRST_H_INCLUDED PHILOSOPHER_H_INCLUDED FRUIS_H_INCLUDED
+syn keyword CTagsNamespace BANK RW_W RW_R PROCUS PROCESS FRUITS
+

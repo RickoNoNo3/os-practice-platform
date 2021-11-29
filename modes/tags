@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION_H_INCLUDED	action.h	2;"	d
+Algo	process.h	/^string Algo = "FCFS";$/;"	m	namespace:PROCESS
+Alloc	bank.h	/^	vector<int> Alloc;$/;"	m	struct:BANK::PCB
+Available	bank.h	/^vector<int> Available;$/;"	m	namespace:BANK
+BANK_H_INCLUDED	bank.h	2;"	d
+BANK	bank.h	/^namespace BANK {$/;"	n
+Block	fruits.h	/^vector<int> Block;$/;"	m	namespace:FRUITS
+Block	philosopher.h	/^vector<int> Block;$/;"	m	namespace:RW_W
+Block	process.h	/^vector<int> Block;$/;"	m	namespace:PROCESS
+Block	product_custom.h	/^vector<int> Block;$/;"	m	namespace:PROCUS
+Block	read_write_rfirst.h	/^vector<int> Block;$/;"	m	namespace:RW_R
+Block	read_write_wfirst.h	/^vector<int> Block;$/;"	m	namespace:RW_W
+Customer	fruits.h	/^bool Customer(int pid) {$/;"	f	namespace:FRUITS
+Customer	product_custom.h	/^bool Customer(int pid) {$/;"	f	namespace:PROCUS
+FRUIS_H_INCLUDED	fruits.h	2;"	d
+FRUITS	fruits.h	/^namespace FRUITS {$/;"	n
+InSysStatus	action.h	/^int InSysStatus = 0;$/;"	v
+MAX	bank.h	/^	vector<int> MAX;$/;"	m	struct:BANK::PCB
+N	fruits.h	/^const int N = 3; \/\/ buffer容量 3$/;"	m	namespace:FRUITS
+N	product_custom.h	/^const int N = 3; \/\/ buffer容量 3$/;"	m	namespace:PROCUS
+PCB	bank.h	/^	PCB (int id = -1) : pid (id) {}$/;"	f	struct:BANK::PCB
+PCB	fruits.h	/^	PCB (int id = -1, string st = "", int ac = -1) : pid (id), status (st), actor(ac), run(0), PC(0) {}$/;"	f	struct:FRUITS::PCB
+PCB	philosopher.h	/^	PCB (int id = -1, string st = "", bool is = true, int d = 0) : pid (id), status (st), isWriter (is), data (d), run (0), PC (0) {}$/;"	f	struct:RW_W::PCB
+PCB	process.h	/^	PCB (int id = -1, string st = "", int l = -1) : pid (id), status (st), len (l), run (0), wait(0) {}$/;"	f	struct:PROCESS::PCB
+PCB	product_custom.h	/^	PCB (int id = -1, string st = "", bool is = true) : pid (id), status (st), isProducer(is), run(0), PC(0) {}$/;"	f	struct:PROCUS::PCB
+PCB	read_write_rfirst.h	/^	PCB (int id = -1, string st = "", bool is = true, int d = 0) : pid (id), status (st), isWriter (is), data (d), run (0), PC (0) {}$/;"	f	struct:RW_R::PCB
+PCB	read_write_wfirst.h	/^	PCB (int id = -1, string st = "", bool is = true, int d = 0) : pid (id), status (st), isWriter (is), data (d), run (0), PC (0) {}$/;"	f	struct:RW_W::PCB
+PCB	bank.h	/^struct PCB {$/;"	s	namespace:BANK
+PCB	fruits.h	/^struct PCB {$/;"	s	namespace:FRUITS
+PCB	philosopher.h	/^struct PCB {$/;"	s	namespace:RW_W
+PCB	process.h	/^struct PCB {$/;"	s	namespace:PROCESS
+PCB	product_custom.h	/^struct PCB {$/;"	s	namespace:PROCUS
+PCB	read_write_rfirst.h	/^struct PCB {$/;"	s	namespace:RW_R
+PCB	read_write_wfirst.h	/^struct PCB {$/;"	s	namespace:RW_W
+PC	fruits.h	/^	int PC;$/;"	m	struct:FRUITS::PCB
+PC	philosopher.h	/^	int PC;$/;"	m	struct:RW_W::PCB
+PC	product_custom.h	/^	int PC;$/;"	m	struct:PROCUS::PCB
+PC	read_write_rfirst.h	/^	int PC;$/;"	m	struct:RW_R::PCB
+PC	read_write_wfirst.h	/^	int PC;$/;"	m	struct:RW_W::PCB
+PHILOSOPHER_H_INCLUDED	philosopher.h	2;"	d
+PROCESS_H_INCLUDED	process.h	2;"	d
+PROCESS	process.h	/^namespace PROCESS {$/;"	n
+PROCUS	product_custom.h	/^namespace PROCUS {$/;"	n
+PRODUCT_CUSTOM_H_INCLUDED	product_custom.h	2;"	d
+Processes	bank.h	/^vector<PCB> Processes;$/;"	m	namespace:BANK
+Processes	fruits.h	/^vector<PCB> Processes;$/;"	m	namespace:FRUITS
+Processes	philosopher.h	/^vector<PCB> Processes;$/;"	m	namespace:RW_W
+Processes	process.h	/^vector<PCB> Processes;$/;"	m	namespace:PROCESS
+Processes	product_custom.h	/^vector<PCB> Processes;$/;"	m	namespace:PROCUS
+Processes	read_write_rfirst.h	/^vector<PCB> Processes;$/;"	m	namespace:RW_R
+Processes	read_write_wfirst.h	/^vector<PCB> Processes;$/;"	m	namespace:RW_W
+Producer	fruits.h	/^bool Producer(int pid) {$/;"	f	namespace:FRUITS
+Producer	product_custom.h	/^bool Producer(int pid) {$/;"	f	namespace:PROCUS
+READ_WRITE_RFIRST_H_INCLUDED	read_write_rfirst.h	2;"	d
+READ_WRITE_WFIRST_H_INCLUDED	read_write_wfirst.h	2;"	d
+RW_R	read_write_rfirst.h	/^namespace RW_R {$/;"	n
+RW_W	philosopher.h	/^namespace RW_W {$/;"	n
+RW_W	read_write_wfirst.h	/^namespace RW_W {$/;"	n
+Reader	philosopher.h	/^bool Reader (int pid) {$/;"	f	namespace:RW_W
+Reader	read_write_rfirst.h	/^bool Reader (int pid) {$/;"	f	namespace:RW_R
+Reader	read_write_wfirst.h	/^bool Reader (int pid) {$/;"	f	namespace:RW_W
+Ready	fruits.h	/^vector<int> Ready;$/;"	m	namespace:FRUITS
+Ready	philosopher.h	/^vector<int> Ready;$/;"	m	namespace:RW_W
+Ready	process.h	/^vector<int> Ready;$/;"	m	namespace:PROCESS
+Ready	product_custom.h	/^vector<int> Ready;$/;"	m	namespace:PROCUS
+Ready	read_write_rfirst.h	/^vector<int> Ready;$/;"	m	namespace:RW_R
+Ready	read_write_wfirst.h	/^vector<int> Ready;$/;"	m	namespace:RW_W
+Run	fruits.h	/^int Run = -1;$/;"	m	namespace:FRUITS
+Run	philosopher.h	/^int Run = -1;$/;"	m	namespace:RW_W
+Run	process.h	/^int Run = -1;$/;"	m	namespace:PROCESS
+Run	product_custom.h	/^int Run = -1;$/;"	m	namespace:PROCUS
+Run	read_write_rfirst.h	/^int Run = -1;$/;"	m	namespace:RW_R
+Run	read_write_wfirst.h	/^int Run = -1;$/;"	m	namespace:RW_W
+Semaphore	fruits.h	/^	Semaphore(int v1 = 0) : v(v1) {}$/;"	f	struct:FRUITS::Semaphore
+Semaphore	philosopher.h	/^	Semaphore (int v1 = 0) : v (v1) {}$/;"	f	struct:RW_W::Semaphore
+Semaphore	product_custom.h	/^	Semaphore(int v1 = 0) : v(v1) {}$/;"	f	struct:PROCUS::Semaphore
+Semaphore	read_write_rfirst.h	/^	Semaphore (int v1 = 0) : v (v1) {}$/;"	f	struct:RW_R::Semaphore
+Semaphore	read_write_wfirst.h	/^	Semaphore (int v1 = 0) : v (v1) {}$/;"	f	struct:RW_W::Semaphore
+Semaphore	fruits.h	/^struct Semaphore{$/;"	s	namespace:FRUITS
+Semaphore	philosopher.h	/^struct Semaphore {$/;"	s	namespace:RW_W
+Semaphore	product_custom.h	/^struct Semaphore{$/;"	s	namespace:PROCUS
+Semaphore	read_write_rfirst.h	/^struct Semaphore {$/;"	s	namespace:RW_R
+Semaphore	read_write_wfirst.h	/^struct Semaphore {$/;"	s	namespace:RW_W
+Suspend	process.h	/^vector<int> Suspend;$/;"	m	namespace:PROCESS
+Writer	philosopher.h	/^bool Writer (int pid) {$/;"	f	namespace:RW_W
+Writer	read_write_rfirst.h	/^bool Writer (int pid) {$/;"	f	namespace:RW_R
+Writer	read_write_wfirst.h	/^bool Writer (int pid) {$/;"	f	namespace:RW_W
+act_active	action.h	/^void act_active() {$/;"	f
+act_block	action.h	/^void act_block() {$/;"	f
+act_end	action.h	/^void act_end() {$/;"	f
+act_new	action.h	/^void act_new() {$/;"	f
+act_ready	action.h	/^void act_ready() {$/;"	f
+act_run	action.h	/^void act_run() {$/;"	f
+act_signal	action.h	/^void act_signal() {$/;"	f
+act_suspend	action.h	/^void act_suspend() {$/;"	f
+act_wait	action.h	/^void act_wait() {$/;"	f
+actor	fruits.h	/^	int actor; \/\/ 0:爸爸 1:妈妈 2:儿子 3:女儿$/;"	m	struct:FRUITS::PCB
+algoChange	process.h	/^void algoChange() {$/;"	f	namespace:PROCESS
+apples_used	fruits.h	/^int apples = 0, apples_used = 0;$/;"	m	namespace:FRUITS
+apples	fruits.h	/^int apples = 0, apples_used = 0;$/;"	m	namespace:FRUITS
+block	fruits.h	/^void block(int pid) {$/;"	f	namespace:FRUITS
+block	philosopher.h	/^void block (int pid) {$/;"	f	namespace:RW_W
+block	process.h	/^void block() {$/;"	f	namespace:PROCESS
+block	product_custom.h	/^void block(int pid) {$/;"	f	namespace:PROCUS
+block	read_write_rfirst.h	/^void block (int pid) {$/;"	f	namespace:RW_R
+block	read_write_wfirst.h	/^void block (int pid) {$/;"	f	namespace:RW_W
+checkSafe	bank.h	/^bool checkSafe(string & safeStr) {$/;"	f	namespace:BANK
+create	bank.h	/^void create () {$/;"	f	namespace:BANK
+create	fruits.h	/^void create(bool isProducer) {$/;"	f	namespace:FRUITS
+create	philosopher.h	/^void create (bool isWriter) {$/;"	f	namespace:RW_W
+create	process.h	/^void create() {$/;"	f	namespace:PROCESS
+create	product_custom.h	/^void create(bool isProducer) {$/;"	f	namespace:PROCUS
+create	read_write_rfirst.h	/^void create (bool isWriter) {$/;"	f	namespace:RW_R
+create	read_write_wfirst.h	/^void create (bool isWriter) {$/;"	f	namespace:RW_W
+data	philosopher.h	/^	int data;$/;"	m	struct:RW_W::PCB
+data	philosopher.h	/^int data = 100;$/;"	m	namespace:RW_W
+data	read_write_rfirst.h	/^	int data;$/;"	m	struct:RW_R::PCB
+data	read_write_rfirst.h	/^int data = 100;$/;"	m	namespace:RW_R
+data	read_write_wfirst.h	/^	int data;$/;"	m	struct:RW_W::PCB
+data	read_write_wfirst.h	/^int data = 100;$/;"	m	namespace:RW_W
+getPCB	bank.h	/^PCB & getPCB (int pid) {$/;"	f	namespace:BANK
+getPCB	fruits.h	/^PCB & getPCB(int pid) {$/;"	f	namespace:FRUITS
+getPCB	philosopher.h	/^PCB & getPCB (int pid) {$/;"	f	namespace:RW_W
+getPCB	process.h	/^PCB & getPCB(int pid) {$/;"	f	namespace:PROCESS
+getPCB	product_custom.h	/^PCB & getPCB(int pid) {$/;"	f	namespace:PROCUS
+getPCB	read_write_rfirst.h	/^PCB & getPCB (int pid) {$/;"	f	namespace:RW_R
+getPCB	read_write_wfirst.h	/^PCB & getPCB (int pid) {$/;"	f	namespace:RW_W
+have	product_custom.h	/^int have = 0, used = 0;$/;"	m	namespace:PROCUS
+init	bank.h	/^void init() {$/;"	f	namespace:BANK
+isProducer	product_custom.h	/^	bool isProducer;$/;"	m	struct:PROCUS::PCB
+isWriter	philosopher.h	/^	bool isWriter;$/;"	m	struct:RW_W::PCB
+isWriter	read_write_rfirst.h	/^	bool isWriter;$/;"	m	struct:RW_R::PCB
+isWriter	read_write_wfirst.h	/^	bool isWriter;$/;"	m	struct:RW_W::PCB
+len	fruits.h	/^	int len;$/;"	m	struct:FRUITS::PCB
+len	philosopher.h	/^	int len;$/;"	m	struct:RW_W::PCB
+len	process.h	/^	int len;$/;"	m	struct:PROCESS::PCB
+len	product_custom.h	/^	int len;$/;"	m	struct:PROCUS::PCB
+len	read_write_rfirst.h	/^	int len;$/;"	m	struct:RW_R::PCB
+len	read_write_wfirst.h	/^	int len;$/;"	m	struct:RW_W::PCB
+nextTimeslice	bank.h	/^void nextTimeslice() {$/;"	f	namespace:BANK
+nextTimeslice	fruits.h	/^void nextTimeslice() {$/;"	f	namespace:FRUITS
+nextTimeslice	philosopher.h	/^void nextTimeslice() {$/;"	f	namespace:RW_W
+nextTimeslice	process.h	/^void nextTimeslice() {$/;"	f	namespace:PROCESS
+nextTimeslice	product_custom.h	/^void nextTimeslice() {$/;"	f	namespace:PROCUS
+nextTimeslice	read_write_rfirst.h	/^void nextTimeslice() {$/;"	f	namespace:RW_R
+nextTimeslice	read_write_wfirst.h	/^void nextTimeslice() {$/;"	f	namespace:RW_W
+operator ==	bank.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) {$/;"	f	struct:BANK::PCB
+operator ==	fruits.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) { return p1.pid == p2.pid; }$/;"	f	struct:FRUITS::PCB
+operator ==	philosopher.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) {$/;"	f	struct:RW_W::PCB
+operator ==	process.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) {$/;"	f	struct:PROCESS::PCB
+operator ==	product_custom.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) { return p1.pid == p2.pid; }$/;"	f	struct:PROCUS::PCB
+operator ==	read_write_rfirst.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) {$/;"	f	struct:RW_R::PCB
+operator ==	read_write_wfirst.h	/^	friend bool operator == (const PCB & p1, const PCB & p2) {$/;"	f	struct:RW_W::PCB
+oranges_used	fruits.h	/^int oranges = 0, oranges_used = 0;$/;"	m	namespace:FRUITS
+oranges	fruits.h	/^int oranges = 0, oranges_used = 0;$/;"	m	namespace:FRUITS
+pid	bank.h	/^	int pid;$/;"	m	struct:BANK::PCB
+pid	fruits.h	/^	int pid;$/;"	m	struct:FRUITS::PCB
+pid	philosopher.h	/^	int pid;$/;"	m	struct:RW_W::PCB
+pid	process.h	/^	int pid;$/;"	m	struct:PROCESS::PCB
+pid	product_custom.h	/^	int pid;$/;"	m	struct:PROCUS::PCB
+pid	read_write_rfirst.h	/^	int pid;$/;"	m	struct:RW_R::PCB
+pid	read_write_wfirst.h	/^	int pid;$/;"	m	struct:RW_W::PCB
+que	fruits.h	/^	queue<int> que;$/;"	m	struct:FRUITS::Semaphore
+que	philosopher.h	/^	queue<int> que;$/;"	m	struct:RW_W::Semaphore
+que	product_custom.h	/^	queue<int> que;$/;"	m	struct:PROCUS::Semaphore
+que	read_write_rfirst.h	/^	queue<int> que;$/;"	m	struct:RW_R::Semaphore
+que	read_write_wfirst.h	/^	queue<int> que;$/;"	m	struct:RW_W::Semaphore
+refreshReady	process.h	/^void refreshReady() {$/;"	f	namespace:PROCESS
+runChange	fruits.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:FRUITS
+runChange	philosopher.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:RW_W
+runChange	process.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:PROCESS
+runChange	product_custom.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:PROCUS
+runChange	read_write_rfirst.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:RW_R
+runChange	read_write_wfirst.h	/^void runChange (vector<int> & v, int pt) {$/;"	f	namespace:RW_W
+run	fruits.h	/^	int run;$/;"	m	struct:FRUITS::PCB
+run	philosopher.h	/^	int run;$/;"	m	struct:RW_W::PCB
+run	process.h	/^	int run;$/;"	m	struct:PROCESS::PCB
+run	product_custom.h	/^	int run;$/;"	m	struct:PROCUS::PCB
+run	read_write_rfirst.h	/^	int run;$/;"	m	struct:RW_R::PCB
+run	read_write_wfirst.h	/^	int run;$/;"	m	struct:RW_W::PCB
+safeStr	bank.h	/^string safeStr;$/;"	m	namespace:BANK
+showMenu	bank.h	/^void showMenu() {$/;"	f	namespace:BANK
+showMenu	fruits.h	/^void showMenu() {$/;"	f	namespace:FRUITS
+showMenu	philosopher.h	/^void showMenu() {$/;"	f	namespace:RW_W
+showMenu	process.h	/^void showMenu() {$/;"	f	namespace:PROCESS
+showMenu	product_custom.h	/^void showMenu() {$/;"	f	namespace:PROCUS
+showMenu	read_write_rfirst.h	/^void showMenu() {$/;"	f	namespace:RW_R
+showMenu	read_write_wfirst.h	/^void showMenu() {$/;"	f	namespace:RW_W
+signal	fruits.h	/^bool signal(Semaphore & s) {$/;"	f	namespace:FRUITS
+signal	philosopher.h	/^bool signal (Semaphore & s) {$/;"	f	namespace:RW_W
+signal	product_custom.h	/^bool signal(Semaphore & s) {$/;"	f	namespace:PROCUS
+signal	read_write_rfirst.h	/^bool signal (Semaphore & s) {$/;"	f	namespace:RW_R
+signal	read_write_wfirst.h	/^bool signal (Semaphore & s) {$/;"	f	namespace:RW_W
+status	fruits.h	/^	string status;$/;"	m	struct:FRUITS::PCB
+status	philosopher.h	/^	string status;$/;"	m	struct:RW_W::PCB
+status	process.h	/^	string status;$/;"	m	struct:PROCESS::PCB
+status	product_custom.h	/^	string status;$/;"	m	struct:PROCUS::PCB
+status	read_write_rfirst.h	/^	string status;$/;"	m	struct:RW_R::PCB
+status	read_write_wfirst.h	/^	string status;$/;"	m	struct:RW_W::PCB
+suspend	process.h	/^void suspend() {$/;"	f	namespace:PROCESS
+timeslice	fruits.h	/^int timeslice = 3;$/;"	m	namespace:FRUITS
+timeslice	philosopher.h	/^int timeslice = 3;$/;"	m	namespace:RW_W
+timeslice	process.h	/^int timeslice = 3;$/;"	m	namespace:PROCESS
+timeslice	product_custom.h	/^int timeslice = 3;$/;"	m	namespace:PROCUS
+timeslice	read_write_rfirst.h	/^int timeslice = 3;$/;"	m	namespace:RW_R
+timeslice	read_write_wfirst.h	/^int timeslice = 3;$/;"	m	namespace:RW_W
+used	product_custom.h	/^int have = 0, used = 0;$/;"	m	namespace:PROCUS
+vecChange	fruits.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:FRUITS
+vecChange	philosopher.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:RW_W
+vecChange	process.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:PROCESS
+vecChange	product_custom.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:PROCUS
+vecChange	read_write_rfirst.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:RW_R
+vecChange	read_write_wfirst.h	/^void vecChange (vector<int> & v1, vector<int> & v2, int pt) {$/;"	f	namespace:RW_W
+view	bank.h	/^void view() {$/;"	f	namespace:BANK
+view	fruits.h	/^void view() {$/;"	f	namespace:FRUITS
+view	philosopher.h	/^void view() {$/;"	f	namespace:RW_W
+view	process.h	/^void view() {$/;"	f	namespace:PROCESS
+view	product_custom.h	/^void view() {$/;"	f	namespace:PROCUS
+view	read_write_rfirst.h	/^void view() {$/;"	f	namespace:RW_R
+view	read_write_wfirst.h	/^void view() {$/;"	f	namespace:RW_W
+v	fruits.h	/^	int v;$/;"	m	struct:FRUITS::Semaphore
+v	philosopher.h	/^	int v;$/;"	m	struct:RW_W::Semaphore
+v	product_custom.h	/^	int v;$/;"	m	struct:PROCUS::Semaphore
+v	read_write_rfirst.h	/^	int v;$/;"	m	struct:RW_R::Semaphore
+v	read_write_wfirst.h	/^	int v;$/;"	m	struct:RW_W::Semaphore
+wait	fruits.h	/^bool wait(Semaphore & s, int pid) {$/;"	f	namespace:FRUITS
+wait	philosopher.h	/^bool wait (Semaphore & s, int pid) {$/;"	f	namespace:RW_W
+wait	product_custom.h	/^bool wait(Semaphore & s, int pid) {$/;"	f	namespace:PROCUS
+wait	read_write_rfirst.h	/^bool wait (Semaphore & s, int pid) {$/;"	f	namespace:RW_R
+wait	read_write_wfirst.h	/^bool wait (Semaphore & s, int pid) {$/;"	f	namespace:RW_W
+wait	process.h	/^	int wait;$/;"	m	struct:PROCESS::PCB
